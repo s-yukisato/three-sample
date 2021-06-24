@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "live-server docs --config webpack.dev.js",
+    "start": "live-server docs",
+    "dev": "webpack --config webpack.dev.config.js",
     "watch": "webpack -w"
   },
   "keywords": [],

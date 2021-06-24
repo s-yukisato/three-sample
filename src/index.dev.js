@@ -40,9 +40,9 @@ function init() {
     // 3DS形式のモデルデータを読み込む
     const loader = new TDSLoader();
     // テクスチャーのパスを指定
-    loader.setResourcePath('../three-sample/models/3ds/portalgun/textures/');
+    loader.setResourcePath('../models/3ds/portalgun/textures/');
     // 3dsファイルのパスを指定
-    loader.load('../three-sample/models/3ds/portalgun/portalgun.3ds', (object) => {
+    loader.load('../models/3ds/portalgun/portalgun.3ds', (object) => {
         // 読み込み後に3D空間に追加
         scene.add(object);
     });
